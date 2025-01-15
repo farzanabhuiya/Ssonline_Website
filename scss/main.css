@@ -7775,3 +7775,50 @@ body #login-reg .btn-link-1 {
 	margin: 5px 0px;
 }
 }
+
+
+
+	/*----- client start--*/
+
+
+	.happy{
+		width: 100%;
+		height: 350px;
+		text-align: center;
+		align-items: center;	
+	}
+
+	.happy h1{
+	font-size: 35px;
+	padding-top: 20px;
+	color: #101010;
+	text-transform: uppercase;
+	}
+
+	.happy h1 span{
+	    color: #159eee;
+}
+	.happy p{
+		font-style: italic;
+		font-size: 16px;
+		line-height: 30px
+	}
+	.marqu{
+		width: 80%;
+		margin: 3% 8% -3% 8%;
+	}
+	.marqu img{
+		width: 140px;
+		margin: 0% 2%;
+	}
+	@media (max-width: 480px) {
+
+		.happy p{
+			margin: 0% 10% 0% 10%;
+		}
+		.marqu img{
+		margin-top: 20px;
+		}
+	}
+	/*----- client end--*/
+	

@@ -7780,7 +7780,7 @@ body #login-reg .btn-link-1 {
 
      /* farzana */
 	/*----- client start--*/
-	.happy{
+	/* .happy{
 		width: 100%;
 		height: 350px;
 		text-align: center;
@@ -7818,7 +7818,78 @@ body #login-reg .btn-link-1 {
 		.marqu img{
 		margin-top: 20px;
 		}
+	} */
+
+
+
+     /* farzana */
+	/*----- client start--*/	    
+.happy {
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	align-items: center;
+}
+
+.happy h1 {
+	font-size: 35px;
+	padding-top: 20px;
+	color: #101010;
+	text-transform: uppercase;
+}
+
+.happy h1 span {
+	color: #159eee;
+}
+
+.happy p {
+	font-style: italic;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.marqu {
+	width: 80%;
+	margin: 4% auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.marquee-wrapper {
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+}
+
+.marquee-content {
+	display: flex;
+	animation: scroll 8s linear infinite;
+}
+
+.marquee-content img {
+	width: 140px;
+	margin: 0 22px;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
 	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+	.happy p {
+		margin: 0 10%;
+	}
+
+	.marquee-content img {
+		margin-top: 20px;
+	}
+}
 	/*----- client end--*/
 	
 

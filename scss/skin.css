@@ -452,11 +452,11 @@ body.blue span {
 }
 body.blue .btn-primary {
 	padding: 15px 50px;
-	border-radius: 0px;
+	border-radius: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #159eee;
-	background-color: #fff;
+	color: #fff;
+	background-color: #159eee!important;
 	border-color: #159eee;
 	background: none;
 }
@@ -547,7 +547,7 @@ body.blue .btn-default {
 body.blue .btn-default:focus, body.blue .btn-default.focus {
 	color: #fff;
 	background-color: #0e80c2;
-	border-color: #09517b;
+	 border-color: #09517b; 
 }
 body.blue .btn-default:hover {
 	color: #fff;

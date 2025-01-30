@@ -1051,6 +1051,7 @@ figure {
 }
 img {
 	vertical-align: middle;
+	
 }
 .img-responsive {
 	display: block;
@@ -5858,7 +5859,7 @@ body .nopadding {
 	padding-right: 0px;
 }
 body .section-block, body #features, body #process, body #testimonial, body #footer, body #about-page-section-3, body #skills, body #team-member, body #portfolio, body #faq, body #contact, body #contact-page, body #features-page .subsection1, body #features-page .subsection2, body #features-page .subsection3 .right-section, body #features-page .subsection3 .left-section, body #features-page .subsection4, body #login-reg {
-	padding: 50px 0px;
+	padding: 40px 0px;
 	display: block;
 }
 body .section-heading h1, body #features h1, body #about h1, body #process h1, body #testimonial h1, body #about-page-section-3 h1, body #skills h1, body #team-member h1, body #top_banner h1, body #portfolio h1, body #faq h1, body #contact h1, body #contact-page h1, body #features-page .subsection1 h1, body #features-page .subsection2 h1, body #features-page .subsection3 .right-section h1, body #features-page .subsection3 .left-section h1, body #features-page .subsection4 h1, body #login-reg h1, body .section-heading .h1, body #features .h1, body #about .h1, body #process .h1, body #testimonial .h1, body #about-page-section-3 .h1, body #skills .h1, body #team-member .h1, body #top_banner .h1, body #portfolio .h1, body #faq .h1, body #contact .h1, body #contact-page .h1, body #features-page .subsection1 .h1, body #features-page .subsection2 .h1, body #features-page .subsection3 .right-section .h1, body #features-page .subsection3 .left-section .h1, body #features-page .subsection4 .h1, body #login-reg .h1 {
@@ -6764,7 +6765,7 @@ body #about-page-section-3 .section-block, body #about-page-section-3 #features,
 	color: #e7e7e7;
 }
 body #about-page-section-3 .btn-primary {
-	margin: 30px 0px 0px;
+	margin: 10px 0px 0px;
 	background-color: #159eee;
 	border-radius: 12px;
 }
@@ -6772,7 +6773,7 @@ body #about-page-section-3 .btn-primary {
 	color: #f5f5f5;}
 @media all and (max-width: 767px) {
 body #about-page-section-3 .btn-primary {
-	margin: 30px 0px 30px;
+	margin: 10px 0px 20px;
 }
 }
 body #skills {
@@ -7063,11 +7064,11 @@ body #top_banner .banner {
 	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 70px 0px;
-	background-position: 50% 25%;
+	padding: 40px 0px;
+	/* background-position: 50% 25%; */
 }
 body #top_banner .page_info {
-	padding: 20px 0px 10px;
+	padding: 16px 0px 6px;
 	background: #f9f9f9;
 	border-bottom: 1px solid #ddd;
 }

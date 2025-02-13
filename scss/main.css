@@ -6395,6 +6395,8 @@ body #about .text-block .btn-primary {
 	border-radius: 12px;
 }
 
+
+
 body #about .text-block .btn-primary {
 	color: #f5f5f5;
 }
@@ -8172,6 +8174,20 @@ service start */
    transform: scale(1.1);
    background:powderblue ;
 }
+
+/* 
+.fle div:hover p {
+	color: #fff;
+ }
+ .fle div:hover h1 {
+	color: #fff;
+ }
+ .fle div:hover i {
+	color: #fff;
+ } */
+
+
+
 .fle div i{
    font-size: 40px;
    color:blue;
@@ -8428,3 +8444,105 @@ body #team-member .our-team.main-info-below-image:hover .our-team-position-icon 
 	-webkit-transition: opacity 0.2s cubic-bezier(0.39, 0.58, 0.57, 1) 0s;
 	transition: opacity 0.2s cubic-bezier(0.39, 0.58, 0.57, 1) 0s;
 }
+
+
+
+/* পপআপ stat  */
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-box {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    max-width: 400px; /* পপআপের সাইজ */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* 2px শ্যাডো দেওয়া হলো */
+}
+
+.popup-box img {
+    width: 100%;
+    display: block;
+    border-radius: 8px; /* চাইলে ইমেজের কোণা গোল রাখতে পারেন */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 10px; /* বাটনের সাইজ বড় করা হলো */
+    cursor: pointer;
+    font-size: 28px; /* ফন্ট সাইজ বাড়ানো হলো */
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    .popup-box {
+        max-width: 80%; /* পপআপের প্রস্থ ৮০% করা হলো */
+        padding: 5px;
+        background-color: #fff; /* সাদা ব্যাকগ্রাউন্ড */
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        margin: 0 auto; /* পপআপকে মাঝামাঝি রাখতে */
+    }
+
+    .popup-box img {
+        width: 100%; /* ইমেজের আকার ১০০% করা হলো */
+        height: auto; /* ইমেজের উচ্চতা অটো রাখা হলো */
+        margin: 0 auto;
+        display: block;
+    }
+
+    .close-btn {
+        top: 5px;
+        right: 5px;
+        padding: 5px 7px;
+        font-size: 20px;
+    }
+}
+
+
+/* @media screen and (max-width: 430px) and (max-height: 932px) {
+    .popup-box {
+        max-width: 90%; 
+        padding: 10px; 
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+		margin-top: -200px; 
+    }
+
+    .popup-box img {
+        width: 100%; 
+        height: auto; 
+       
+        display: block;
+    }
+
+    .close-btn {
+        top: 10px;
+        right: 10px;
+        padding: 7px 10px; 
+        font-size: 18px;
+    }
+} */
+
+/* পপআপ end  */
+
+
+

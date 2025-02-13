@@ -99,6 +99,16 @@
     </header>
     <!--/.nav-ends -->
 
+
+     <!-- পপআপ stat -->
+     <div id="popup" class="popup-container">
+        <div class="popup-box">
+            <button class="close-btn" onclick="closePopup()">×</button>
+            <img src="img/popap.png" alt="Special Offer">
+        </div>
+    </div>
+    <!-- পপআপ end -->
+
     <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -262,7 +272,7 @@
                         <li> <i class="fa fa-check"></i>Superfast Broadband Internet Service.</li>
                     </ul>
 
-                    <button type="button" class="btn btn-primary slide ">About SS ONLINE </button>
+                    <button type="button" class="btn btn-primary slide ">About SS ONLINE</button>
 
 
                 </div>
@@ -1001,6 +1011,31 @@
         <a class="open" href="#"><span><i class="fa fa-gear fa-spin"></i></span></a>
         </div>
      <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="370c272d-344d-4c7c-acb4-ad9731cf853c";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+       <!-- farzana -->
+       <!-- পপআপ stat -->
+       <script>
+        // পপআপ ক্লোজ করার ফাংশন
+        function closePopup() {
+            document.getElementById("popup").classList.add("hidden");
+            localStorage.setItem("popupClosed", "true"); // LocalStorage এ সংরক্ষণ করা হচ্ছে
+        }
+    
+        // চেক করবে পপআপ আগে বন্ধ করা হয়েছিল কি না
+        window.onload = function() {
+            if (!localStorage.getItem("popupClosed")) {
+                setTimeout(() => {
+                    document.getElementById("popup").classList.remove("hidden");
+                }, 3000);
+            }
+        };
+//         function closePopup() {
+//     document.getElementById("popup").style.display = "none";
+// }
+
+<!-- পপআপ end -->
+    </script>
+
 </body>
 
 </html>

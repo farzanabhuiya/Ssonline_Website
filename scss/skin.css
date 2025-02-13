@@ -9,6 +9,7 @@ body.cyan .btn-primary {
 	text-transform: uppercase;
 	color: #1abac8;
 	background-color: #fff;
+	border-radius: 12px;
 	border-color: #1abac8;
 	background: none;
 }
@@ -460,6 +461,9 @@ body.blue .btn-primary {
 	border-color: #159eee;
 	background: none;
 }
+
+
+
 body.blue .btn-primary:focus, body.blue .btn-primary.focus {
 	color: #159eee;
 	background-color: #e6e6e6;
@@ -912,6 +916,7 @@ body.orange .btn-primary {
 	color: #ff8a00;
 	background-color: #fff;
 	border-color: #ff8a00;
+	border-radius: 12px;
 	background: none;
 }
 body.orange .btn-primary:focus, body.orange .btn-primary.focus {
@@ -1357,6 +1362,7 @@ body.red .btn-primary {
 	color: #e54e53;
 	background-color: #fff;
 	border-color: #e54e53;
+	border-radius: 12px;
 	background: none;
 }
 body.red .btn-primary:focus, body.red .btn-primary.focus {
@@ -1803,6 +1809,7 @@ body.green .btn-primary {
 	background-color: #fff;
 	border-color: #1abc9c;
 	background: none;
+	border-radius: 12px;
 }
 body.green .btn-primary:focus, body.green .btn-primary.focus {
 	color: #1abc9c;
@@ -2236,7 +2243,7 @@ body.lightgreen .slide:hover, body.lightgreen .slide:focus {
 }
 body.lightgreen .btn-primary {
 	padding: 15px 50px;
-	border-radius: 0px;
+	border-radius: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #b4de50;
